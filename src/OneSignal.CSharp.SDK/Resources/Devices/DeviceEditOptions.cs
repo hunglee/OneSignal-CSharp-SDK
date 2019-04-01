@@ -135,5 +135,11 @@ namespace OneSignal.CSharp.SDK.Resources.Devices
         /// </summary>
         [JsonProperty("lat")]
         public double? Latitude { get; set; }
+        
+        /// <summary>
+        /// External UserId.
+        /// </summary>
+        [JsonProperty("external_user_id")]
+        public string ExternalUserId { get; set; }
     }
 }
